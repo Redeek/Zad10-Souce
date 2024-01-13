@@ -1,4 +1,4 @@
-deename: zad10-workflow
+name: zad10-workflow
 on: workflow_dispatch
 jobs:
   dockerCI:
