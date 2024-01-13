@@ -31,7 +31,7 @@ jobs:
       - id: checkout
         uses: actions/checkout@v4
         with:
-          repository: Redeek/Zad10-Source
+          repository: Redeek/Zad10-Config
           token: ${{ secrets.TOKEN }}
       - run: |
           git config user.name Redeek
