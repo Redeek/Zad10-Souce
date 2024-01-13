@@ -22,8 +22,8 @@ jobs:
           platforms: linux/arm64/v8,linux/amd64
           file: ./Dockerfile
           push: true
-          tags: Redeek/Zad10:${{ github.sha }}
-          cache-from: type=registry,ref=Redeek/Zad10:${{ github.sha }}
+          tags: redek/Zad10:latest
+          cache-from: type=registry,ref=redek/Zad10:latest
           cache-to: type=inline
   kubernetesCI:
     runs-on: ubuntu-latest
