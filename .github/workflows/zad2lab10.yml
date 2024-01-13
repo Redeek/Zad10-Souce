@@ -34,8 +34,8 @@ jobs:
           repository: Redeek/Zad10-Config
           token: ${{ secrets.TOKEN }}
       - run: |
-          git config user.name Redeek
-          git config user.email mati.red@gmail.com
+          git config user.name "Redeek"
+          git config user.email "mati.red@gmail.com"
           sed -i -E "s/[0-9a-f]{40}/${{ github.sha }}/g" zad10-deploy.yml
           git add .
           git commit -m "workflow"
